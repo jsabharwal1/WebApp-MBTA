@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MBTA Station Information</title>
+    <style>
+        form {
+            padding: 120px;
+            background-image: url('https://images.squarespace-cdn.com/content/v1/5ba1b175620b8545d7f519c8/1586053731298-S8HUL6471SAAHRGQXHKE/mbta_cover.jpg?format=2500w');
+            background-size: cover;
+            margin-top:0;
+            color:white;
+        }
+        .red {
+            color: red;
+            text-align: center;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+        .text-border {
+            border: 2px solid black;
+            background-color: black;
+            padding: 25px;
+            height: 300px;
+            width: 400px;
+            opacity:0.8;
+            text-align:center;
+        }
+        .header {
+            background-color:blue;
+            color: white;
+            padding: 20px;
+            margin-bottom: 0;
+            margin-top:0;
+            text-align:center;
+            text-transform:uppercase;
+        }
+        .wider-margin {
+            margin:30px;
+            text-align:center;
+        }
+        button{
+            height:30px;
+        }
+        .background{
+            background-color:black;
+            margin-top: 0; 
+            padding: 150px;
+        }
+        a{
+            font-size:30px;
+        }
+        .white{
+            color:white;
+            text-align:center;
+            font-size: 25px;
+        }
+        .error-border{
+            border: 2px solid red;
+            background-color: red;
+            padding: 25px;
+            height: 300px;
+            width: 400px;
+            opacity:0.8;
+            text-align:center;
+        }
+    </style>
+    <style type="text/css">
+        body{background-color:gold; color:black; text-align:center; font-family:Verdana}
+    </style>
+</head>
+
+<body>
+    <h1>Closest MBTA Station Based on the Location</h1>
+    <h2>Station: {{name}}</h2>
+    <h3>{{accessible}}</h3>
+    <h4>The Tempreature is {{temperature}} Degrees Celsius</h4>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Boston.svg/500px-Flag_of_Boston.svg.png" alt="Public Domain Image of Boston Flag">
+</body>
+
+
+</html>
